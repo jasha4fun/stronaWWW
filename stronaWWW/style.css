@@ -1,0 +1,103 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+nav {
+  background-color: #96B826;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li button {
+  padding: 5px;
+  color: #96B826;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.banner {
+  background-color: #96B826;
+}
+
+#banner {
+    width: 100%;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  background-color: #f4f4f4;
+}
+
+article {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  background-color: #54504f;
+  color: white;
+}
+
+article h2 {
+  color: #96B826;
+  margin-bottom: 10px;
+}
+
+article p a {
+  color: #96B826;
+}
+
+.column {
+  padding: 24px;
+}
+
+#autor {
+  margin-top: 100px;
+  background-image: url('assets/avatar.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 110px;
+  background-size: 100px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+  background-color: #96B826;
+  color: white;
+  padding: 5px 48px 24px 48px;
+}
+
+footer div {
+  padding: 10px;
+  margin: 10px 0px 0px 0px;
+}
+
+footer h4 {
+  font-size: 15px;
+}
+
+footer h4 i {
+  font-size: 24px;
+}
+
+footer p {
+  font-size: 10px;
+  margin: 0px;
+}
